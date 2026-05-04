@@ -31,22 +31,22 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .scores {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 1.4rem;
 }
 
 #head {
-  color: rgb(158, 255, 255);
+  color: rgb(0, 255, 255);
 }
 
 #tail {
-  color: #7dffb3;
+  color: #17ff77;
 }
 
 #heads,
@@ -57,7 +57,7 @@ h1 {
 #result {
   width: 7rem;
   height: 7rem;
-  background: #7dfbff;
+  background: #596275;
   border-radius: 100%;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
@@ -66,15 +66,15 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #002fff;
+  color: #e2e8f0;
 }
 
 button {
-  background: #6cfab8;
+  background: #7dfbff;
   color: #0b1027;
   font-size: 20px;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 16px;
   cursor: pointer;
   border-radius: 5px;
 }

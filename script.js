@@ -6,7 +6,7 @@ const flipButton = document.querySelector("#flip-btn");
 let headCount = +head.textContent;
 let tailCount = +tail.textContent;
 
-flipButton.addEventListener("click", (event) => {
+flipButton.addEventListener("click", () => {
   const resultEl = computerPlay();
   result.textContent = resultEl.toUpperCase();
 
